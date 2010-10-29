@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>easyb-maven-parent</artifactId>
+		<groupId>org.easyb</groupId>
+		<version>1.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>easyb-composite-groovy</artifactId>
+	<version>1.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Easyb composite</name>
+	<description>
+		This composite contains a restricted version of easyb-core, so that people can depend on named releases of easyb without having to keep a version range of easyb-core
+		if they so wish. It provides compatibility with existing uses of easyb.
+	</description>
+	<dependencies>
+			<dependency>
+				<groupId>org.codehaus.groovy</groupId>
+				<artifactId>groovy-all</artifactId>
+				<version>[1.7.4, 1.7.99)</version>
+			</dependency>
+	</dependencies>
+</project>
