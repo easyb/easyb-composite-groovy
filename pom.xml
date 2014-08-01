@@ -7,7 +7,7 @@
 		<version>1.1</version>
 	</parent>
 	<artifactId>easyb-composite-groovy</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.2</version>
 	<packaging>pom</packaging>
 	<name>Easyb composite</name>
 	<description>
@@ -21,4 +21,8 @@
 			<version>2.3.6</version>
 		</dependency>
 	</dependencies>
+
+  <scm>
+    <tag>easyb-composite-groovy-1.2</tag>
+  </scm>
 </project>
