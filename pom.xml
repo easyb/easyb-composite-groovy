@@ -4,7 +4,7 @@
 	<parent>
 		<artifactId>easyb-parent</artifactId>
 		<groupId>org.easyb</groupId>
-		<version>1.1-SNAPSHOT</version>
+		<version>1.1</version>
 	</parent>
 	<artifactId>easyb-composite-groovy</artifactId>
 	<version>1.2-SNAPSHOT</version>
@@ -15,10 +15,10 @@
 		if they so wish. It provides compatibility with existing uses of easyb.
 	</description>
 	<dependencies>
-			<dependency>
-				<groupId>org.codehaus.groovy</groupId>
-				<artifactId>groovy-all</artifactId>
-				<version>2.1.4</version>
-			</dependency>
+		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy-all</artifactId>
+			<version>2.3.6</version>
+		</dependency>
 	</dependencies>
 </project>
